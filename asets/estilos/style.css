@@ -1,0 +1,99 @@
+
+.contenedor-portada {
+    text-align: center;
+}
+
+#portada {
+    width: fit-content;
+}
+
+img {
+    height: 27em;
+}
+
+.border {
+    border: 4px solid red;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.tarjeta {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+}
+
+.tarjeta h3 {
+    margin-top: 0;
+}
+
+.tarjeta p {
+    color: #666;
+}
+
+.tarjeta img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%; /* Para que las imágenes sean redondas */
+}
+
+.contenedor-boton {
+    text-align: center;
+    margin: 20px;
+}
+
+.boton {
+    background-color: #ee32bf;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #ee32bf;
+}
+
+.contenedor-selects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+select {
+    padding: 2px;
+    font-size: 14px;
+}
+
+#validador {
+    text-align: center;
+    margin: 20px;
+}
